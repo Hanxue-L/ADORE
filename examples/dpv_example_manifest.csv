@@ -1,0 +1,3 @@
+trace_id,channel,trace_file,blank_current,current_scale
+mb_example,mb,raw_dpv/mb_example.txt,0.69394,1000000
+l012_example,l012,raw_dpv/l012_example.txt,0.4992,1000000

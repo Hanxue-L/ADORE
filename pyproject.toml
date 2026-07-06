@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adore-dpv"
+version = "0.1.0"
+description = "DPV feature extraction and machine-learning utilities for the ADORE analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3,<2.6",
+    "pandas>=2.3,<3.1",
+    "scikit-learn==1.8.0",
+    "scipy>=1.16,<1.19",
+    "optuna>=4.6,<5.0",
+    "joblib>=1.5,<2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

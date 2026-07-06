@@ -1,0 +1,3 @@
+trace_id,sample_id,group,analyte
+mb_example,example_001,Healthy,miR21
+l012_example,example_001,Healthy,miR92a

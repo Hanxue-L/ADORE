@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+*.egg-info/
+build/
+dist/
+results/
+*.joblib
+!models/adore_svm_model.joblib
+examples/example_features.csv
+examples/example_feature_table.csv
